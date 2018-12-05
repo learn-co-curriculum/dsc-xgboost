@@ -19,7 +19,7 @@ Gradient Boosting is one of the most powerful concepts in machine learning right
 XGBoost is a stand-alone library that implements popular gradient boosting algorithms in the fastest, most performant way possible. There are many under-the-hood optimizations that allow XGBoost to train more quickly than other libary implementations of gradient boosting algorithms. For instance, XGBoost is configured in such a way that it parallelizes the construction of trees across all your computer's CPU cores during the training phase. It also allows for more advanced use cases, such as distributing training across a cluster of computers, which is often a technique used to speed up computation. The algorithm even automatically handles missing values!
 
 
-### Installing XGBoost
+## Installing XGBoost
 
 XGBoost is an independent library that provides implementations in C++, python, and other languages. Luckily, the open-source community has had the good sense to make the python API for XGBoost mirror that of sklearn, so using XGBoost feels no different than using any other supervised learning algorithm from sklearn. The only downside is that it does not come packaged with sklearn, so we must install it ourselves. Conda makes this quite easy. 
 
