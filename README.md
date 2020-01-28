@@ -15,7 +15,7 @@ You will be able to:
 
 Gradient boosting is one of the most powerful concepts in machine learning right now. As you've seen, the term _gradient boosting_ refers to a class of algorithms, rather than any single one. The version with the highest performance right now is **_XGBoost_**, which is short for **_eXtreme Gradient Boosting_**. 
 
-`XGBoost` is a stand-alone library that implements popular gradient boosting algorithms in the fastest, most performant way possible. There are many under-the-hood optimizations that allow XGBoost to train more quickly than any other libary implementations of gradient boosting algorithms. For instance, XGBoost is configured in such a way that it parallelizes the construction of trees across all your computer's CPU cores during the training phase. It also allows for more advanced use cases, such as distributing training across a cluster of computers, which is often a technique used to speed up computation. The algorithm even automatically handles missing values!
+`XGBoost` is a stand-alone library that implements popular gradient boosting algorithms in the fastest, most performant way possible. There are many under-the-hood optimizations that allow XGBoost to train more quickly than any other library implementations of gradient boosting algorithms. For instance, XGBoost is configured in such a way that it parallelizes the construction of trees across all your computer's CPU cores during the training phase. It also allows for more advanced use cases, such as distributing training across a cluster of computers, which is often a technique used to speed up computation. The algorithm even automatically handles missing values!
 
 
 ## Installing `XGBoost`
